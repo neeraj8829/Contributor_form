@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contributor's Form</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="container">
+    <h1 class="main_heading">Student_Help Contributor Form</h1>
+    <hr>
+    <p>* Marked fields are required</p>
+    <form action="">
+        <p>
+            Name of Contributor* <input type="text" name="Name of Contributor" required placeholder="Krishna singhania">
+        </p>
+        <p>
+            <fieldset>
+                <legend>Gender*</legend>
+                <p>
+                    Male <input type="radio" name="Gender" id="Male" required>
+                    Female <input type="radio" name="Gender" id="Female" required> 
+                </p>
+            </fieldset> 
+        </p>
+        <p>
+            Email* <input type="email" name="Email" id="email" required placeholder="singhania@gmail.com">
+        </p>
+        <p>
+            Contact Number* <input type="number" name="Contact number" id="Contact number" required>
+        </p>
+        <p>
+            College/University* <input type="text" name="College/University" required placeholder="MNIT jaipur">
+        </p>
+        <p>
+            Course Enrolled* <input type="text" name="Course Enrolled" required placeholder="for eg: B-Tech">
+        </p>
+        <p>
+            Year of Study* <select name="year_of_study" id="year_of_study" required>
+                <option value="">--Select your year of study--</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+         </p>
+         <p>
+            Location* <input type="text" name="Location" id="Location" required placeholder="Jaipur">
+         </p>
+         <p>
+            What do you want to contribute* <select name="what_do_you_want_to_contribut" id="what_do_you_want_to_contribut" required>
+                <option value="">--Select what you want to contribute--</option>
+                <option value="notes">Notes</option>
+                <option value="previous year papers">Previous Year Papers</option>
+                <option value="Books">Books</option>
+                <option value="other">Other</option>
+            </select>
+         </p>
+         <p>
+            Photograph link* <input type="url" name="photograph_link" id="photograph_link" required placeholder="For display purpose">
+         </p>
+         <p>
+            Any Suggestions/Query <textarea name="Suggestions" id="Suggestions" cols="100" rows="8"></textarea>
+         </p>
+         <input type="Submit" id="Submission">
+    </form>
+</div>
+
+    
+</body>
+</html>
